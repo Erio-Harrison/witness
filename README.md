@@ -137,6 +137,8 @@ Measurements for each step, and the attempts that did not work, are in [spikes/b
 ### Build
 
 ```bash
+git clone https://github.com/Erio-Harrison/witness
+cd witness
 cargo build --release
 ```
 

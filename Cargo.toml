@@ -3,6 +3,7 @@ name = "witness"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+repository = "https://github.com/Erio-Harrison/witness"
 description = "An inference engine for one model, one GPU and one job: Qwen2.5-Coder-1.5B code completion on an RTX 4060 Laptop"
 
 [dependencies]
