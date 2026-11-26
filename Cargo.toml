@@ -1,0 +1,13 @@
+[package]
+name = "witness"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "An inference engine for one model, one GPU and one job: Qwen2.5-Coder-1.5B code completion on an RTX 4060 Laptop"
+
+[dependencies]
+serde_json = "1"
+tokenizers = { version = "0.22", default-features = false, features = ["onig"] }
+
+[profile.release]
+debug = true

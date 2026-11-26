@@ -1,0 +1,24 @@
+# build output, weights, reference data, downloaded corpus
+/target/
+/data/
+
+# Python
+__pycache__/
+*.pyc
+
+# compiled spikes
+/spikes/baseline/gemv
+/spikes/gemm/lt
+/spikes/gemm/cold
+/spikes/tc/mma
+/spikes/tc/tcgemv
+/spikes/decode/gemv_rand
+
+# what the experiments wrote: per-run logs, GPU state samples, result rows.
+# The scripts that produce them and the written-up notes (NOTES.md) are kept.
+/spikes/**/*.log
+/spikes/**/*.csv
+/spikes/**/*.jsonl
+
+# the local path of the model snapshot (set WITNESS_MODEL, or write your own)
+/spikes/baseline/model_path.txt
